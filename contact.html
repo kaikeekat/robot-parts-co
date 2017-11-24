@@ -10,28 +10,28 @@
 <body>
 
   <header>
-    <h1><img src="images/logo.svg" alt=""></h1>
+    <p><strong><img src="images/robot-parts-co.svg" alt="Robot Parts Co."></strong></p>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="page2.html">Products</a></li>
-        <li><a href="page3.html">Contact</a></li>
+        <li><a href="robot-parts.html">Robot Parts</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <h2>Contact</h2>
+  <main itemscope itemtype="https://schema.org/Corporation">
+    <h1>Contact</h1>
 
-    <strong>Robot Parts Co.</strong>
+    <strong itemprop="name">Robot Parts Co.</strong>
 
-    <address>
-      <br>1234 Robot Lane
-      <br>Robot Mega City 1, RoboStateB, RoboCountry211
-      <br>11001010100101001
+    <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <br><span itemprop="streetAddress">1234 Robot Lane</span>
+      <br><span itemprop="addressLocality">Robot Mega City 1, RoboStateB, RoboCountry211</span>
+      <br><span itemprop="postalCode">11001010100101001</span>
     </address>
 
-    <a href="mailto:parts@robotparts.co">parts@robotparts.co</a>
+    <a itemprop="email" href="mailto:parts@robotparts.co">parts@robotparts.co</a>
   </main>
 
   <footer>
